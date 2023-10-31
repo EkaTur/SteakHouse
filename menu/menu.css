@@ -1,0 +1,185 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: black;
+    margin: 0;
+}
+
+h1 {
+    color: rgba(255, 68, 9, 0.9);
+    font-size: 80px;
+    position: absolute;
+    margin-left: 335px;
+    margin-top: 16px;
+}
+
+img {
+    opacity: 0.8;
+    height: 100vh;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: -5px;
+}
+
+.main-containerOne, .main-containerTwo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 68, 9, 0.7);
+    width: 790px;
+    margin-top: 105px;
+    margin-left: 18px;
+    border-radius: 60px;
+}
+
+.columnOne, .columnTwo, .columnThree {
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstItem {
+    margin-left: 20px;
+    margin-top: 35px;
+    margin-bottom: 0;
+    font-size: 25px;
+    font-weight: medium;
+}
+
+.itemDesc {
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+.price {
+    margin-right: 39px;
+    margin-top: 32px;
+    font-size: 25px;
+    font-weight: medium;
+}
+
+.item {
+    margin-left: 20px;
+    margin-top:-5px;
+    margin-bottom: 0;
+    font-size: 25px;
+    font-weight: medium;
+}
+
+.extrasHeader, .redWine {
+    align-self: center;
+    margin-top: -10px;
+}
+
+.firstItemExtras {
+    margin-top: -10;
+    margin-bottom: 0;
+    font-size: 25px;
+    font-weight: medium;
+    margin-left: 20px;
+}
+
+.priceExtras {
+    margin-right: 39px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 25px;
+    font-weight: medium;
+}
+
+.sauces-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 790px;
+    margin-top: -10px;
+}
+
+.sauces {
+    font-size: 25px;
+    font-weight: medium;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.priceSauces {
+    font-size: 25px;
+    font-weight: medium;
+    margin-top: 5px;
+}
+
+.info {
+    margin-top: -9px;
+}
+
+.columnThreeInfo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+@media all and (max-width: 500px) {
+    img {
+        display: none;
+    }
+
+    h1 {
+        color: rgba(255, 68, 9, 0.9);
+        font-size: 40px;
+        position: absolute;
+        margin-left: 155px;
+        margin-top: 16px;
+    }
+
+    .main-containerOne,
+    .main-containerTwo {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .main-containerOne {
+        height: 100%;
+    }
+
+    .menu {
+        width: 100%;
+        margin-top: 80px;
+        margin-left: 18px;
+        border-radius: 60px;
+    }
+
+    .firstItem {
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+
+    .item {
+        margin-left: 15px;
+    }
+
+    .itemDesc {
+        margin-left: 15px;
+    }
+
+    .firstItemExtras {
+        margin-top: 2px;
+        margin-left: 15px;
+    }
+
+    .sauces-cont {
+        width: 100%;
+        margin-left: 15px;
+    }
+
+    .wine {
+        margin-top: 28px;
+    }
+}

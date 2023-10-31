@@ -1,0 +1,6 @@
+gsap.from('.header', { y: -100, opacity: 0, duration: 1.5, delay: 0.5 })
+gsap.from('.par', { y: 100, opacity: 0, duration: 1.5, delay: 1 })
+gsap.from('.face', { x: -100, opacity: 0, duration: 1.5, delay: 1 })
+gsap.from('.inst', { x: 100, opacity: 0, duration: 1.5, delay: 1.5 })
+gsap.from('.adressPar', { y: 100, opacity: 0, duration: 1.5, delay: 2 })
+gsap.from('.workHours', {y: 100, opacity: 0, duration: 1.5, delay: 2.5})
