@@ -1,6 +1,6 @@
 # SteakHouse
 
-![SteakHouse Logo](logo.jpg)
+![SteakHouse Logo](Assets/logo.jpg)
 
 Welcome to SteakHouse! This is a simple and elegant website for a high-end dining restaurant. Here, we serve the finest steaks in town. On our website, you'll find the menu, contact information, and the option to make reservations.
 
