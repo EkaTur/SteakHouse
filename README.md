@@ -4,6 +4,10 @@
 
 Welcome to SteakHouse! This is a simple and elegant website for a high-end dining restaurant. Here, we serve the finest steaks in town. On our website, you'll find the menu, contact information, and the option to make reservations.
 
+## Live Demo
+
+You can check out the live version of this website [here](https://steakhouse.netlify.app/).
+
 ## Table of Contents
 - [Features](#features)
 - [Technologies](#technologies)
